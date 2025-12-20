@@ -191,7 +191,3 @@ Prompt Engineering • RAG • Documentation
 *They're the ones whose work shows up in the P&L."*
 
 <br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=bshrt&color=blue&style=flat-square&label=Profile+Views)
-
-</div>
