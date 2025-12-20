@@ -1,8 +1,8 @@
 # Hey, I'm Basharat 👋
 
-**Senior Analytics Engineer** turning raw data into business impact at scale.
+**Data Scientist** | Building ML systems that drive real business outcomes.
 
-4+ years building data solutions across **fintech**, **Big4 consulting**, and **AI startups**—processing millions of transactions, driving $8M+ in revenue impact, and shipping ML systems that stakeholders actually use.
+$8M+ revenue impact. 1M+ daily transactions. Solutions that stakeholders actually use.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sa-basharat-ali)
 [![Website](https://img.shields.io/badge/Portfolio-basharat.net-blue?style=for-the-badge)](https://www.basharat.net)
@@ -10,167 +10,103 @@
 
 ---
 
-## 🔥 What I Do
+## 🔥 Impact By Numbers
 
-I build **end-to-end data solutions**—from ETL pipelines and data warehouses to ML models and executive dashboards. The kind of stuff that moves the needle on actual business metrics.
-
-**Currently:**
-- 🏦 **Senior AI/Analytics Engineer @ Geidea** — Saudi Arabia's largest fintech
-- 🎓 **M.S. Business Analytics @ Mercy University** — Graduating 2025
-- 👨‍💼 **Founder & President, Data & AI Club** — Building the next generation of data talent
-
----
-
-## 💼 Impact Highlights
-
-### Geidea (Fintech) — 1M+ Daily Transactions
-```
-📈 $8M+ incremental revenue impact through ML-powered merchant intelligence
-🔍 Built fraud detection systems protecting payment infrastructure
-⚡ 60% query performance improvement through Oracle optimization
-🎯 Churn prediction models supporting $5M+ in merchant retention
-```
-
-### Ernst & Young — Enterprise Consulting
-```
-📊 Delivered analytics solutions for Fortune 500 clients
-🚀 Boosted analytics adoption across FMCG portfolio companies
-💡 Built scalable data solutions driving measurable revenue growth
-```
-
-### Proxima AI — Startup
-```
-🤖 Early-stage AI product development
-📉 Data analyst to data scientist pipeline work
-```
+| Metric | Impact |
+|--------|--------|
+| 💰 Revenue Generated | **$8M+** through automated collections & pricing optimization |
+| 📊 Transactions Processed | **1M+ daily** with real-time anomaly detection |
+| ⚡ Performance Gains | **60% faster** dashboards via Oracle optimization |
+| 🎯 Merchant Retention | **$5M+** supported through ML churn prediction |
+| 🏪 Merchants Served | **40K+** with analytics platforms |
+| 📉 Reporting Reduction | **40%** less ad-hoc work through automation |
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages & Data**
-```
-Python • SQL • R • PL/SQL • VBA
-```
-
-**Machine Learning**
-```
-Scikit-learn • PyTorch • XGBoost • CatBoost • ARIMA
-Classification • Regression • Clustering • NLP • Anomaly Detection • Time Series
-```
-
-**Data Engineering**
-```
-Talend • Apache Airflow • Apache Kafka • Apache Spark
-Oracle • PostgreSQL • Snowflake • Data Warehousing
-```
-
-**Business Intelligence**
-```
-Tableau • Power BI • Incorta • Excel
-```
-
-**Cloud & DevOps**
-```
-AWS (EC2, S3) • Docker • Git • GitHub
-```
-
-**AI & Automation**
-```
-Claude • GPT • Cursor • Claude Code • RAG • Prompt Engineering
+```python
+tech_stack = {
+    "languages": ["Python", "SQL", "R", "PL/SQL", "VBA"],
+    "ml_ai": ["Scikit-learn", "PyTorch", "XGBoost", "ARIMA", "RAG", "Prompt Engineering"],
+    "data_engineering": ["Oracle", "Talend", "Airflow", "ETL Pipelines", "Data Warehousing"],
+    "visualization": ["Tableau", "Power BI", "Incorta"],
+    "cloud_devops": ["AWS (EC2, S3)", "Docker", "Git"],
+    "ai_tools": ["Claude", "Cursor", "Claude Code", "GitHub Copilot", "Zapier"]
+}
 ```
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 What I've Built
 
-### 🏏 PlayVision Cricket — *In Development*
-> AI-powered tactical advisor for T20 cricket teams
+### 💳 Real-Time Fraud Detection Pipeline
+ML-powered anomaly detection embedded directly in ETL pipelines, auto-flagging fraud and processing errors across 1M+ daily payment transactions.
 
-Real-time strategy recommendations using Monte Carlo simulations, computer vision for match analysis, and predictive modeling for player matchups. Targeting IPL franchises with $300K-500K per season pricing.
-
-**Tech:** Python, YOLOv8, Monte Carlo Simulation, Cricsheet Data
+`Python` `Talend` `Oracle` `Scikit-learn`
 
 ---
 
-### 🏥 Healthcare Analytics Platform — *Consulting Project*
-> End-to-end data warehouse for MyStartHealth
+### 📈 Merchant Intelligence System
+Automated analytics pipelines analyzing revenue patterns across MCC codes, interchange fees, and chargeback behavior—driving $8M+ in additional annual revenue through smarter pricing and collections.
 
-Built complete data infrastructure: source database mirroring → Airbyte ETL → staging warehouse → Tableau dashboards. HIPAA-compliant architecture for 100K+ patient records scaling to 1M+.
-
-**Tech:** PostgreSQL, Airbyte, AWS, Tableau, Apache Airflow
+`SQL` `Tableau` `Python` `Automation`
 
 ---
 
-### 💳 Merchant Intelligence System — *Geidea*
-> Automated analytics pipeline for 40K+ merchants
+### 🔮 Churn Prediction Engine
+Production ML models (ARIMA, regression) predicting merchant churn and transaction trends. Enabled $5M+ retention strategy with tiered re-engagement packages.
 
-VIP merchant analytics capturing 80% of company revenue, real-time transaction monitoring, and ML-based merchant segmentation for pricing optimization.
-
-**Tech:** Oracle, Talend, Python, Power BI
+`Python` `Scikit-learn` `Feature Engineering` `Tableau`
 
 ---
 
-### 📊 Financial Operations Dashboard — *Geidea*
-> Executive-level visibility into payment operations
+### 🏥 Healthcare Data Platform *(Consulting)*
+End-to-end data warehouse architecture: source DB → Airbyte ETL → staging → Tableau dashboards. HIPAA-compliant design scaling from 100K to 1M+ patient records.
 
-Streamlined chargeback processing, automated merchant payouts reporting, and predictive transaction trend modeling.
-
-**Tech:** SQL, Tableau, Python
+`PostgreSQL` `Airbyte` `AWS` `Tableau` `Airflow`
 
 ---
 
-### 🔮 Churn Prediction Engine — *Geidea*
-> ML models for merchant retention
+### 🏏 PlayVision Cricket *(In Development)*
+AI tactical advisor for T20 cricket teams. Real-time strategy recommendations using Monte Carlo simulations and computer vision for match analysis.
 
-Built classification models identifying at-risk merchants before they churned, enabling proactive intervention strategies that supported $5M+ in retention.
-
-**Tech:** Python, Scikit-learn, XGBoost, Feature Engineering
+`Python` `YOLOv8` `Monte Carlo` `Computer Vision`
 
 ---
 
-## 📝 Latest From LinkedIn
+### 🎓 Ethical AI Toolkit *(Current)*
+University-wide AI implementation framework redefining coursework design, grading systems, and assessment frameworks for 5,000+ students.
 
-I share daily insights on **data science**, **AI innovations**, and **career growth** in analytics. Topics include:
-- Building ML systems that actually get used in production
-- Bridging the gap between technical implementation and business strategy
-- Navigating the modern AI/data tooling landscape
-
-**[Follow me on LinkedIn →](https://linkedin.com/in/sa-basharat-ali)**
+`Prompt Engineering` `RAG` `Documentation`
 
 ---
 
-## 🎯 What I'm Exploring
+## 🎯 Currently Exploring
 
-- **AR Development** — Building holographic scanning effects in Unreal Engine 5 with ARCore
-- **AI Agents** — Experimenting with autonomous workflows using Claude, Cursor, and MCP
-- **Sports Analytics** — Cricket strategy optimization using simulation and computer vision
+- **AR Development** — Holographic scanning effects in Unreal Engine 5 + ARCore
+- **AI Agents** — Autonomous workflows with Claude, Cursor, and MCP
+- **Sports Analytics** — Cricket strategy optimization via simulation
 
 ---
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm always open to discussing:
-- 📊 Data science & analytics opportunities
-- 🤖 AI/ML projects and collaborations
-- 💡 Consulting on data infrastructure
-- 🎓 Mentorship for aspiring data scientists
-
-**📧 Email:** sabasharat.ali@gmail.com  
-**🌐 Portfolio:** [basharat.net](https://www.basharat.net)  
-**💼 LinkedIn:** [linkedin.com/in/sa-basharat-ali](https://linkedin.com/in/sa-basharat-ali)
+**📧** sabasharat.ali@gmail.com  
+**🌐** [basharat.net](https://www.basharat.net)  
+**💼** [LinkedIn](https://linkedin.com/in/sa-basharat-ali)
 
 ---
 
