@@ -1,193 +1,41 @@
-<div align="center">
+# Syed Ahmed Basharat Ali (Basharat)
 
-# Hey, I'm Basharat 👋
+**Data scientist and analytics engineer in New York City.** I work on payments, fraud, settlement and reconciliation data, metric definitions and semantic layers, experimentation and causal inference, and LLM evaluation.
 
-### Data Scientist Who Speaks Business
+**Open to roles:** Data Scientist, Analytics Engineer, Senior Data Analyst, Business Operations / Strategy & Operations, Strategic Finance analytics, in New York or remote in the US.
 
-**I don't just build models. I build revenue.**
-
-$8M+ impact. 1M+ daily transactions. Direct partnerships with CEOs & Country Leaders.
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sa-basharat-ali)
-[![Website](https://img.shields.io/badge/Portfolio-basharat.net-blue?style=for-the-badge)](https://www.basharat.net)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sabasharat.ali@gmail.com)
-
-</div>
+[basharat.net](https://www.basharat.net) · [LinkedIn](https://linkedin.com/in/sa-basharat-ali) · sabasharat.ali@gmail.com
 
 ---
 
-<br>
+## Experience
 
-## 💡 What Makes Me Different
+- **Graduate Assistant, AI Implementation, Mercy University** (New York, Dec 2025 to present). University-wide Ethical AI Faculty Toolkit and GenAI literacy curriculum for 5,000+ students.
+- **Freelance Data Science & AI Consultant** (own consulting practice). Through it I was the CEO's data person at Rime, a Saudi edge-AI retail camera startup: traced an 80% upstream data loss across a 150-device fleet, stabilized a 137 GB PostgreSQL backbone failing 8-hour Airbyte syncs, and shipped an 11-model dbt migration across a multi-tenant Snowflake warehouse with 50+ client schemas. Also built a bilingual Arabic/English AI assistant on OpenAI function calling for a grocery-delivery startup.
+- **Data Scientist, Geidea** (Riyadh, Aug 2023 to Jan 2025), Saudi Arabia's largest payments processor. Promoted from Business Analyst within 6 months; member of the executive strategy team. Real-time anomaly detection on 1M+ daily payment transactions; merchant churn and revenue forecasting that informed a tiered retention strategy, cutting merchant churn from 35% to about 10% on a $5M+ portfolio; segmentation of 40,000+ merchants by MCC, interchange and chargeback behavior; settlement and onboarding data models covering 400,000+ POS terminals; automated collections pipelines contributing to $8M+ in additional annual profit; FinOps reconciliation and SLA reporting across 5+ teams.
+- **Senior Data Consultant, EY** (Karachi, Jan 2022 to Jun 2023). Founding member of EY Pakistan's Business Consulting data team. Analytics, predictive modeling, audit automation and C-suite dashboards for GSK and National Foods; internal reporting layer for EY Pakistan leadership.
+- **Data Analyst, Proxima AI** (Karachi, May 2021 to Jan 2022).
 
-> Most data scientists optimize metrics. **I optimize P&L.**
-
-I've sat in boardrooms with **CEOs**, **Country Partners**, and **C-suite executives**—not just to present dashboards, but to **drive decisions** that moved millions of dollars.
-
-Whether it's a **mega-fintech processing 1M+ transactions daily** or a **healthcare startup scaling to 1M patients**, I bring the same thing to the table:
-
-**Technical depth × Business acumen × Executive communication**
-
-<br>
+**Education:** M.S. Business Analytics, Mercy University (GPA 4.0, Aug 2026; founder and president of the Data & AI Club). B.S. Computer Science, University of Karachi.
 
 ---
 
-## 🔥 Impact By Numbers
+## Public work (each runs locally with the Python standard library)
 
-<div align="center">
-
-| | What I Delivered | |
-|:---:|:---|:---:|
-| 💰 | **$8M+** revenue through automated collections & pricing optimization | 💰 |
-| 📊 | **1M+ daily** transactions with real-time anomaly detection | 📊 |
-| ⚡ | **60% faster** dashboards via Oracle infrastructure optimization | ⚡ |
-| 🎯 | **$5M+** merchant retention through ML churn prediction | 🎯 |
-| 🏪 | **40K+** merchants served with analytics platforms | 🏪 |
-| 📉 | **40%** reduction in ad-hoc reporting through automation | 📉 |
-| 🤝 | **5+ enterprise clients** consulted directly with leadership | 🤝 |
-
-</div>
-
-<br>
+| Repository | What it shows |
+|---|---|
+| [ledger-integrity](https://github.com/sa-basharat-ali/ledger-integrity) | Reconciliation for agentic payments. Daily totals see the net error, not the gross: netting hid $32,732 (46%) of $71,570. A retry with a regenerated idempotency key was caught 0 of 53 times and was 93% of undetected dollar-hours. |
+| [marketplace-payout-reconciliation](https://github.com/sa-basharat-ali/marketplace-payout-reconciliation) | 122,810 orders across three money records. Daily-total checks fire on 31 of 31 days of a clean book; a fee computed on tax passes every reconciliation until fees are recomputed from policy. |
+| [merchant-freeze-economics](https://github.com/sa-basharat-ali/merchant-freeze-economics) | Pricing a merchant freeze against the fraud it prevents across 60,000 merchants. A 98%-recall policy loses $9.1M versus freezing nobody; cutting review time from 3 days to 1 is worth more than a two-point AUC gain. |
+| [fraud-queue-economics](https://github.com/sa-basharat-ali/fraud-queue-economics) | Expected-value triage for a fraud review queue. Alert recall falls 85.1% to 80.0% while dollar recall rises 76.8% to 93.0% at 54% lower cost. |
+| [llm-judge-validation](https://github.com/sa-basharat-ali/llm-judge-validation) | Validating an LLM judge against human labels. It overstates quality by 5.2 points overall and 19.4 in one category; its own confidence interval contains the truth 0% of the time. |
+| [semantic-layer-trust-harness](https://github.com/sa-basharat-ali/semantic-layer-trust-harness) | Auditing a semantic layer against independent ground truth. 40 of 90 queries (44%) have no single correct answer until an allocation rule is declared. |
+| [ai-spend-intelligence](https://github.com/sa-basharat-ali/ai-spend-intelligence) | AI spend from a raw card feed: 231 descriptors resolved to 15 vendors, seat vs usage billing classified, and metered spend shown to be uncallable before about day 12 of the month. |
+| [fleet-silent-failure-detection](https://github.com/sa-basharat-ali/fleet-silent-failure-detection) | Silent-failure detection for a 314-device capture fleet. Row counts catch 18 of 43 failures; content checks catch 43 of 43. |
+| [on-time-delivery-causal](https://github.com/sa-basharat-ali/on-time-delivery-causal) | Causal study on 101,684 orders. The definition of "on time" flips the effect on repeat purchase from -0.38 to +0.51 points. |
 
 ---
 
-## 🎯 How I Work
+## Tools
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   📊 DATA  ──────►  🧠 INSIGHTS  ──────►  💰 REVENUE           │
-│                                                                 │
-│   Most stop here ─┘        I go all the way ─────────────────┘ │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**I've consulted for:**
-- 🏦 **Fintech** — Built ML systems for the largest payment processor in the Middle East
-- 🏥 **Healthcare** — Architected HIPAA-compliant data platforms scaling to 1M+ patients  
-- 🏢 **FMCG Giants** — Delivered analytics solutions for top-tier enterprise clients at EY
-- 🚀 **AI Startups** — Grew analytics practice driving 20% company revenue increase
-
-<br>
-
----
-
-## 🛠️ Tech Stack
-
-```python
-basharat = {
-    "languages": ["Python", "SQL", "R", "PL/SQL", "VBA"],
-    
-    "ml_ai": ["Scikit-learn", "PyTorch", "XGBoost", "ARIMA", 
-              "RAG", "Prompt Engineering"],
-    
-    "data_engineering": ["Oracle", "Talend", "Airflow", 
-                         "ETL Pipelines", "Data Warehousing"],
-    
-    "visualization": ["Tableau", "Power BI", "Incorta"],
-    
-    "cloud_devops": ["AWS (EC2, S3)", "Docker", "Git"],
-    
-    "ai_tools": ["Claude", "Cursor", "Claude Code", 
-                 "GitHub Copilot", "Zapier"],
-    
-    "superpower": "Translating complex analytics into board-ready decisions"
-}
-```
-
-<br>
-
----
-
-## 🚀 What I've Built
-
-<br>
-
-### 💳 Real-Time Fraud Detection Pipeline
-> **The Problem:** Payment fraud slipping through, costing millions  
-> **My Solution:** ML-powered anomaly detection embedded directly in ETL pipelines  
-> **The Result:** Auto-flagging fraud across **1M+ daily transactions** in real-time
-
-```
-Python • Talend • Oracle • Scikit-learn
-```
-
-<br>
-
----
-
-### 📈 Merchant Intelligence System  
-> **The Problem:** No visibility into what drives merchant revenue  
-> **My Solution:** Automated pipelines analyzing MCC codes, interchange fees, chargeback patterns  
-> **The Result:** **$8M+ additional annual revenue** through smarter pricing & collections
-
-```
-SQL • Tableau • Python • Automation
-```
-
-<br>
-
----
-
-### 🔮 Churn Prediction Engine
-> **The Problem:** Merchants leaving without warning  
-> **My Solution:** Production ML models (ARIMA, regression) predicting churn before it happens  
-> **The Result:** **$5M+ retention** with tiered re-engagement packages
-
-```
-Python • Scikit-learn • Feature Engineering • Tableau
-```
-
-<br>
-
----
-
-### 🎓 Ethical AI Toolkit *(Building Now)*
-> **The Challenge:** Universities struggling with AI integration  
-> **My Solution:** Framework redefining coursework design, grading, and assessments  
-> **The Impact:** Transforming education for **5,000+ students**
-
-```
-Prompt Engineering • RAG • Documentation
-```
-
-<br>
-
----
-
-## 📬 Let's Talk
-
-<div align="center">
-
-**I'm always open to:**
-
-💼 **Consulting** on data strategy & infrastructure  
-🤝 **Collaborating** on high-impact ML projects  
-☕ **Chatting** about turning data into dollars
-
-<br>
-
-| 📧 Email | 🌐 Portfolio | 💼 LinkedIn |
-|:---:|:---:|:---:|
-| [sabasharat.ali@gmail.com](mailto:sabasharat.ali@gmail.com) | [basharat.net](https://www.basharat.net) | [/in/sa-basharat-ali](https://linkedin.com/in/sa-basharat-ali) |
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-### 💭 My Philosophy
-
-<br>
-
-*"The best data scientists aren't the ones who build the most complex models.*  
-*They're the ones whose work shows up in the P&L."*
-
-<br>
+Python, SQL, R, dbt, Snowflake, PostgreSQL, Oracle, Airflow, Airbyte, Talend, Tableau, Power BI, Metabase, scikit-learn, XGBoost, CatBoost, PyTorch, ARIMA, causal inference, OpenAI and Anthropic APIs, RAG, MCP, Claude Code, Cursor, AWS, Docker, GitHub Actions.
