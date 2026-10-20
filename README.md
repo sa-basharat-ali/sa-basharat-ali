@@ -1,8 +1,14 @@
 # Syed Ahmed Basharat Ali (Basharat)
 
-**Data scientist and analytics engineer in New York City.** I work on payments, fraud, settlement and reconciliation data, metric definitions and semantic layers, experimentation and causal inference, and LLM evaluation.
+**Data scientist, analytics engineer, data analyst and product analyst based in New York City.** I work on payments, fraud, settlement and reconciliation data, metric definitions and semantic layers, experimentation and causal inference, and LLM evaluation.
 
-**Open to roles:** Data Scientist, Analytics Engineer, Senior Data Analyst, Business Operations / Strategy & Operations, Strategic Finance analytics, in New York or remote in the US.
+**Open to roles anywhere in the US** (on-site, hybrid or remote; open to relocating): Data Scientist, Analytics Engineer, Data Analyst, Product Analyst, Senior Data Analyst, Business Operations / Strategy & Operations, Strategic Finance analytics.
+
+- Payments, fraud and risk data science: [basharat.net/data-scientist-payments-fraud-new-york](https://www.basharat.net/data-scientist-payments-fraud-new-york)
+- Analytics engineering (dbt, multi-tenant Snowflake): [basharat.net/analytics-engineer-dbt-snowflake](https://www.basharat.net/analytics-engineer-dbt-snowflake)
+- Data analyst (SQL, Tableau, reconciliation): [basharat.net/data-analyst-new-york](https://www.basharat.net/data-analyst-new-york)
+- Product analyst (experiments, retention, causal inference): [basharat.net/product-analyst-new-york](https://www.basharat.net/product-analyst-new-york)
+- LLM evaluation and LLM-as-a-judge validation: [basharat.net/llm-evaluation-data-scientist](https://www.basharat.net/llm-evaluation-data-scientist)
 
 [basharat.net](https://www.basharat.net) · [LinkedIn](https://linkedin.com/in/sa-basharat-ali) · sabasharat.ali@gmail.com
 
